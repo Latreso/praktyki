@@ -1,0 +1,52 @@
+html {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+body {
+	margin:0;
+	padding:0;
+	min-height:100%;
+	font-family:Lato,Sans-serif;
+	box-sizing:border-box;
+	overflow:hidden;
+	background:#f0f0f0;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url('../img/grupowe-2.jpg');
+	background-position:50%;
+	box-sizing:border-box;
+}
+#special-logo * {
+	transition:all 1s;
+}
+#special-logo {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-350px -450px;
+	display:inline-block;
+	height:500px;
+	background-image:url('../img/logo-en.png'), url('../img/stars.png');
+	background-size:900px 130px,500px 500px;
+	background-position:50% 50%,50% 50%;
+	background-repeat:no-repeat,no-repeat;
+	z-index:200;
+	width:900px;
+}
+img#logotypy {
+	position:fixed;
+	height:70px;
+	bottom:0;
+	right:0;
+}
+#flaga-pl,#flaga-en {
+	position:absolute;
+	bottom:-100px;
+}
+#flaga-pl:hover,#flaga-en:hover {
+	box-shadow:0px 0px 30px #000;
+}
+#flaga-pl img,#flaga-en img {width:160px;}
+#flaga-pl {left:260px;}
+#flaga-en {right:260px;}
