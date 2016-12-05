@@ -173,10 +173,10 @@ ol.ol-list li:nth-child(even) {
 		height:275px;
 	}
 	#special-logo {
-	    height: 300px;
-	    margin: 0 -270px;
-	    background-size: 540px 78px,300px 300px;
-	    width: 540px;
+	    height: 200px;
+	    margin: 0 -180px;
+	    background-size: 360px 52px,200px 200px;
+	    width: 360px;
 	}
 }
 /*------------------------------------------------------*/
