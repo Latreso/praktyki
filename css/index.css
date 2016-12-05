@@ -1,3 +1,11 @@
+@media(max-width:950px){
+	#special-logo {
+		height:400px;
+		margin:-300px -360px;
+		background-size:720px 104px,400px 400px;
+		width:720px;
+	}
+}
 html {
 	height:100%;
 	margin:0;
@@ -17,22 +25,20 @@ body {
 	background-position:50%;
 	box-sizing:border-box;
 }
-#special-logo * {
-	transition:all 1s;
-}
 #special-logo {
 	position:absolute;
+	transition:all 1s;
 	left:50%;
 	top:50%;
-	margin:-350px -450px;
 	display:inline-block;
 	height:500px;
-	background-image:url('../img/logo-pl.png'), url('../img/stars.png');
+	margin:-350px -450px;
 	background-size:900px 130px,500px 500px;
+	width:900px;
+	background-image:url('../img/logo-en.png'), url('../img/stars.png');
 	background-position:50% 50%,50% 50%;
 	background-repeat:no-repeat,no-repeat;
 	z-index:200;
-	width:900px;
 }
 img#logotypy {
 	position:fixed;
