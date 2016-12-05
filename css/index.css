@@ -62,6 +62,7 @@ img#logotypy {
 	#flaga-pl img,#flaga-en img {width:128px;}
 	#flaga-pl {left:208px;}
 	#flaga-en {right:208px;}
+	#flaga-pl,#flaga-en {bottom:-80px;}
 }
 @media (max-width:750px), (max-height:590px){
 	#special-logo {
@@ -74,4 +75,5 @@ img#logotypy {
 	#flaga-pl img,#flaga-en img {width:96px;}
 	#flaga-pl {left:156px;}
 	#flaga-en {right:156px;}
+	#flaga-pl,#flaga-en {bottom:-60px;}
 }
