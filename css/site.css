@@ -168,26 +168,23 @@ ol.ol-list li:nth-child(even) {
 	padding-right: 5px;
 	margin-bottom:10px;
 }
-
+@media (max-width:750px) {
+	#big-bg {
+		height:275px;
+	}
+	#special-logo {
+	    height: 300px;
+	    margin: 0 -270px;
+	    background-size: 540px 78px,300px 300px;
+	    width: 540px;
+	}
+}
 /*------------------------------------------------------*/
 
 * {
 	padding: 0;
 	margin: 0;
 }
-
-a:-webkit-any-link {
-	color: inherit;
-	text-decoration: inherit;
-	cursor: pointer;
-}
-
-a:-moz-any-link {
-	color: inherit;
-	text-decoration: inherit;
-	cursor: pointer;
-}
-
 *:focus {
     outline: none;
 }
@@ -195,64 +192,6 @@ a:-moz-any-link {
 .clear {
 	clear: both;
 }
-
-.maska {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-	display: none;
-	z-index: 900010;
-}
-
-.container {
-	margin: 0px auto;
-	position: relative;
-	z-index: 3;
-	text-align: justify;
-}
-
-#kategorie > div {
-	position: absolute;
-	text-align: center;
-	cursor: pointer;
-	transition: top 0.5s, width 0.5s, height 0.5s;
-	line-height: 30px;
-	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	text-shadow: 0px 0px 9px white, 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white;
-}
-
-#kategorie > div > img {
-	width: 100%;
-	border-radius: 50%;
-	background-color: rgba(0, 31, 255, 0.48);
-	box-shadow: 4px 4px 1px -3px black, -4px 4px 1px -3px black, 0px 6px 1px -3px black;
-}
-#info {
-	position: relative;
-	font-weight: bold;
-	text-align: center;
-	padding: 15px 0px;
-}
-
-#test {
-	font-size: 18;
-	text-align: justify;
-	margin-top: 20px;
-}
-
-.left{
-	float: left;
-}
-
-.right{
-	float: right;
-}
-
 .zse{
 	width: 80%;
 	float: left;
@@ -287,30 +226,6 @@ a:-moz-any-link {
 	text-align: justify;
 	width: 30%;
 }
-
-ul{
-	list-style-position: inside;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: none;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
-.container {
-	font-size: 12pt;
-}
-
 .grupowe{
 	padding: 10px;
 	margin-top: 10%;
