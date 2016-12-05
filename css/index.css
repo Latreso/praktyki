@@ -52,15 +52,18 @@ img#logotypy {
 #flaga-pl img,#flaga-en img {width:160px;}
 #flaga-pl {left:260px;}
 #flaga-en {right:260px;}
-@media(max-width:950px){
+@media (max-width:950px), (max-height:750px){
 	#special-logo {
 		height:400px;
 		margin:-300px -360px;
 		background-size:720px 104px,400px 400px;
 		width:720px;
 	}
+	#flaga-pl img,#flaga-en img {width:128px;}
+	#flaga-pl {left:208px;}
+	#flaga-en {right:208px;}
 }
-@media(max-width:750px){
+@media (max-width:750px), (max-height:590px){
 	#special-logo {
 		height:300px;
 		margin:0 -270px;
@@ -68,21 +71,7 @@ img#logotypy {
 		width:540px;
 		top:50px;
 	}
-}
-@media(max-height:750px){
-	#special-logo {
-		height:400px;
-		margin:-300px -360px;
-		background-size:720px 104px,400px 400px;
-		width:720px;
-	}
-}
-@media(max-height:590px){
-	#special-logo {
-		height:300px;
-		margin:0 -270px;
-		background-size:540px 78px,300px 300px;
-		width:540px;
-		top:50px;
-	}
+	#flaga-pl img,#flaga-en img {width:96px;}
+	#flaga-pl {left:156px;}
+	#flaga-en {right:156px;}
 }
