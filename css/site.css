@@ -179,6 +179,25 @@ ol.ol-list li:nth-child(even) {
 	    width: 360px;
 	}
 }
+.thumbnail {
+	margin-bottom:0;
+}
+@media (min-width: 768px) {
+	#gallery .thumb {
+		height:248px;
+	}
+}
+@media (min-width: 992px) {
+	#gallery .thumb {
+		height:213px;
+	}
+}
+@media (min-width: 1200px) {
+	#gallery .thumb {
+		height:127px;
+	}
+}
+
 /*------------------------------------------------------*/
 
 * {
