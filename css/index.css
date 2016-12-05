@@ -60,8 +60,26 @@ img#logotypy {
 @media(max-width:750px){
 	#special-logo {
 		height:300px;
-		margin:-200px -270px;
+		margin:0 -270px;
 		background-size:540px 78px,300px 300px;
 		width:540px;
+		top:50px;
+	}
+}
+@media(max-height:750px){
+	#special-logo {
+		height:400px;
+		margin:-300px -360px;
+		background-size:720px 104px,400px 400px;
+		width:720px;
+	}
+}
+@media(max-height:590px){
+	#special-logo {
+		height:300px;
+		margin:0 -270px;
+		background-size:540px 78px,300px 300px;
+		width:540px;
+		top:50px;
 	}
 }
