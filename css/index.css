@@ -1,11 +1,3 @@
-@media(max-width:950px){
-	#special-logo {
-		height:400px;
-		margin:-300px -360px;
-		background-size:720px 104px,400px 400px;
-		width:720px;
-	}
-}
 html {
 	height:100%;
 	margin:0;
@@ -42,9 +34,10 @@ body {
 }
 img#logotypy {
 	position:fixed;
-	height:70px;
+	max-height:70px;
 	bottom:0;
 	right:0;
+	max-width:100%;
 }
 #flaga-pl,#flaga-en {
 	position:absolute;
@@ -56,3 +49,19 @@ img#logotypy {
 #flaga-pl img,#flaga-en img {width:160px;}
 #flaga-pl {left:260px;}
 #flaga-en {right:260px;}
+@media(max-width:950px){
+	#special-logo {
+		height:400px;
+		margin:-300px -360px;
+		background-size:720px 104px,400px 400px;
+		width:720px;
+	}
+}
+@media(max-width:750px){
+	#special-logo {
+		height:300px;
+		margin:-200px -270px;
+		background-size:540px 78px,300px 300px;
+		width:540px;
+	}
+}
