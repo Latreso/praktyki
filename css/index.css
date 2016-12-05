@@ -17,6 +17,9 @@ body {
 	background-position:50%;
 	box-sizing:border-box;
 }
+#special-logo * {
+	transition:all 1s;
+}
 #special-logo {
 	position:absolute;
 	transition:all 1s;
