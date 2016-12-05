@@ -9,4 +9,3 @@ $('.btn-nav').click(function(e){
 	}}
 	e.preventDefault();
 	return false;
-});
