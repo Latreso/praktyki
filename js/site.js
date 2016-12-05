@@ -8,4 +8,3 @@ $('.btn-nav').click(function(e){
 		setTimeout(function(){$('body').removeClass('animation');},1000);
 	}}
 	e.preventDefault();
-	return false;
