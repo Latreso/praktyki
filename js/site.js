@@ -7,4 +7,3 @@ $('.btn-nav').click(function(e){
 		$('body').addClass('podstrony').addClass('animation');
 		setTimeout(function(){$('body').removeClass('animation');},1000);
 	}}
-	e.preventDefault();
