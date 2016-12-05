@@ -4,4 +4,3 @@ $('.btn-nav').click(function(e){
 		$('body').removeClass('podstrony').addClass('animation');
 		setTimeout(function(){$('body').removeClass('animation');},1000);
 	} else if($(this).attr('id')!='link-main-page' && !($('body').hasClass('podstrony'))) {
-		$('body').addClass('podstrony').addClass('animation');
